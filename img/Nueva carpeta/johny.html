@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, Username-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>click-2-otros Ruiz</title>
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<!--Stylesheet-->
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+</style>
+
+<body>
+	<!---------- titulo -------------->
+	<div class="title-cards">	
+		<a href="index.html"><h6 class="atras">atras</h6></a> 
+	</div>
+	<div class="container-card">
+		<!------correo gmail johnny------>
+		<div class="card">
+			<figure>
+				<h1 class="titulo-2">Correo: personal johnny</h1>
+				<a href="#"><img src="pasword/img/google.jpg" alt=""></a>
+			</figure>
+			<div class="contenido-card">
+				</a>
+				<p class="texto" id="text1">johnnydurand24@gmail.com</p>
+				<button class="button" onclick="copy('text1')">Copy Username</button>
+				</a>
+				<p class="texto" id="text10">GraficaJoc 32@</p>
+				<button class="button" onclick="copy('text10')">Copy Passwor</button>
+			</div>
+		</div>
+		<!------pagina joc------>
+		<div class="card">
+			<figure>
+				<h1 class="titulo-2">Correo: pagina Grafica Joc</h1>
+				<a href="" target="_blank" ><img src="pasword/img/google.jpg" alt=""></a>
+			</figure>
+			<div class="contenido-card">
+				</a>
+				<p class="texto" id="text1">paginajoc@gmail.com</p>
+				<button class="button" onclick="copy('text1')">Copy Username</button>
+				</a>
+				<p class="texto" id="text10">paginajoc8412</p>
+				<button class="button" onclick="copy('text10')">Copy Passwor</button>
+			</div>
+		</div>
+		<!------correo mi fe-------->
+		<div class="container-card">
+		<div class="card">
+			<figure>
+				<h1 class="titulo-2">Correo: grafica Mi fe</h1>
+				<a href="#"><img src="pasword/img/google.jpg" alt=""></a>
+			</figure>
+			<div class="contenido-card">
+				</a>
+				<p class="texto" id="text2">graficamife290s@gmail.com</p>
+				<button class="button" onclick="copy('text2')">Copy Username</button>
+				</a>
+				<p class="texto" id="text3">graficamife100</p>
+				<button class="button" onclick="copy('text3')">Copy Passwor</button>
+			</div>
+		</div>
+	</div>
+
+	
+		<!---------github-------->
+		<div class="card">
+			<figure>
+				<h1 class="titulo-2">GIT: pagina joc</h1>
+				<a href="https://github.com/login"target="_blank"><img src="img/github.png" alt=""></a>
+			</figure>
+			<div class="contenido-card">
+				<button class="button">paginajoc@gmail.com</button>
+					</a>
+					<p class="texto" id="text4">paginajocweb</p>
+					<button class="button" onclick="copy('text4')">Copy Username</button>
+				</a>
+				<p class="texto" id="text11">paginajoc8412</p>
+				<button class="button" onclick="copy('text11')">Copy Passwor</button>
+				</a>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+
+
+	<p id="alert">id copiado</p>
+	<!--Script-->
+	<script>
+		function copy(copyId) {
+			let inputElement = document.createElement("input");
+			inputElement.type = "text";
+			let copyText = document.getElementById(copyId).innerHTML;
+			inputElement.value = copyText;
+			document.body.appendChild(inputElement);
+			inputElement.select();
+			document.execCommand('copy');
+			document.body.removeChild(inputElement);
+
+			document.getElementById("alert").style.display = "block";
+			setTimeout(function () {
+				document.getElementById("alert").style.display = "none";
+			}, 4000);
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+	color: #202020;
+}
+/*Cards*/
+
+body{
+	cursor: pointer;
+	color: black;
+	 background-image: linear-gradient(rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.781)),
+	 url(../img/FONDO.jpg);
+	background-color: rgb(0, 0, 0);
+    background-position:  center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	
+}
+
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+	color: #000000;
+}
+.title-cards{
+	font-size: 25px;
+	max-width: 2080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+/*tarjetas*/
+
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 22px;
+	overflow: hidden;	
+	/*sombra*/
+	box-shadow: 0px 1px 10px rgb(0, 0, 0);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+
+/*sobre derecho*/
+.card:hover{
+	box-shadow: 5px 5px 20px rgb(0, 0, 0);
+	transform: translateY(-3%);
+}
+
+/*imegen de tarjetas*/
+.card img{
+	width: 100%;
+	height: auto;
+	/*imagen trasparente*/
+	opacity:0.800;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #000000;
+	border: #000000;
+}
+
+.click-1{
+	line-height: 1.8;
+	color: #ffffff;
+	font-size: 14px;
+	margin-bottom: 5px;
+	border: #000000;
+	text-align: center;
+}
+
+.click-2{
+	text-align: center;
+	font-size: 10px;
+	color: #f1f1f1;
+}
+/*letras chicas*/
+.click-3{
+	text-align: center;
+	font-size: 5px;
+	color: #f1f1f1;
+	padding-bottom: 13px;
+}
+
+.click-enlace{
+	text-align: center;
+	font-size: 5px;
+	color: #1eff00;
+	padding-bottom: 13px;
+}
+.button-enlace{
+	border: #000000;
+    text-align: center;
+    font-size: 10px;
+    text-align: center;
+	color: #0aff01;
+	border: #000000;
+}
+.click-4, button{
+	border: #000000;
+    text-align: center;
+    font-size: 10px;
+    text-align: center;
+	color: #ffffff;
+	border: #000000;
+}
+
+.click-1-otros{
+	line-height: 1.8;
+	color: #ffffff;
+	font-size: 14px;
+	margin-bottom: 5px;
+	border: #000000;
+	text-align: center;
+}
+
+.texto{
+	text-align: center;
+	font-size: 14px;
+	color: #f1f1f1;
+	padding-bottom: 5px;
+}
+
+/*para todos*/
+.click-boton{
+	background-color: #000000b0;
+    color: #f1f1f1;
+    margin: 1px 0 10px 0;
+    padding: 5px 20px;
+	text-align: center;
+    margin-left: 5px;
+	/*border circular*/
+	border-radius: 10px;
+   
+}
+
+button{ 
+    background-color: #000000b0;
+    color: #f1f1f1;
+    margin: 1px 0 10px 0;
+    padding: 5px 20px;
+	text-align: center;
+    margin-left: 5px;
+	/*border circular*/
+	border-radius: 10px;
+   
+}
+
+/*boton tarjetas*/
+.card .contenido-card a{
+	display: inline-block;
+	padding: 5px;
+	margin-top: 1px;
+	text-decoration: none;
+	border-radius: 12px;
+	transition: all 400ms ease;
+	margin-bottom: 1px;
+	display: block;
+}
+.card .contenido-card a:hover{
+	color: #202020;
+}
+
+
+
+/*boto de copiar*/
+
+
+
+/*alertas mensaje*/
+
+#alert{
+    width: 90%;
+	font-size: 30px;
+    text-align: center;
+    background-color: #000000ad;
+    color: #ffffff;
+	/*pocision fija*/
+    position: fixed;
+	/*fija*/
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    padding: 5px 0;
+    display: none;
+	border-radius: 20PX;
+
+}
+
+.p{
+	font-size: 5px;
+	color: #ffffff;
+}
+
+.titulo{
+	background-color: #f1f1f1a9;
+	text-align: center;
+	padding: 10px;
+}
+.titulo-2{
+	background-color: #f1f1f1a9;
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.atras{
+	color: #f1f1f1;
+	text-decoration: none;
+	background-color: #000000;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+
+

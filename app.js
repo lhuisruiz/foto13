@@ -26,14 +26,14 @@ function modal_088() {
         '<h3 class="bm-4">Black Momets</h3>' +
         '<p class="bm-2-pp">Carpetas... <i class="fa-regular fa-folder"></i></p>' +
         //CARPETA 1 
-        '<a href="https://drive.google.com/drive/folders/1-5aNZVgAjgXhZuLm3hou4-GwdUuhIZ44?usp=share_link">' +
+        '<a href="https://drive.google.com/drive/folders/1Tji_Oc2w49rnABVfw4NZoeFTV9EMVGn-?usp=share_link">' +
         '<button class="bt-msj" >Ver Fotos <i class="fa-solid fa-image blu"></i></button></a>' +
         //CARPETA 2 video
-        '<a href="lapp2" >' + 
+        '<a href="https://drive.google.com/drive/folders/1ZzBA9BU_U1Zmg1UaERL_Puxrow4xrcRk?usp=share_link" >' + 
         '<button class="bt-msj" >Ver Videos<i class="fa-solid fa-video blu"></i></button></a>'+
-        //CARPETA 2 otro
-        '<a href="lapp3" >' + 
-        '<button class="bt-msj" >Otro<i class="fa-solid fa-folder-open blu"></i></button></a>',
+        //CARPETA 3 otro
+        '<a href="https://drive.google.com/drive/folders/1gWy9Czrpu4arJ4vxE_llHnKHLz50b5-O?usp=share_link" >' + 
+        '<button class="bt-msj" >Fotos Con lhuis<i class="fa-solid fa-image blu"></i></button></a>' ,
         imageWidth: 400,
         imageHeight: 500,
         //cerrar
@@ -54,7 +54,7 @@ function modal_08() {
             '<h3 class="bm-4">Black Momets</h3>' +
             '<p class="bm-2-pp">Tamaño de Descarga, <b>5GB De Fotos (JPG Y RAW)</b>, atravez de  mediafire... Archivo rar </p>' +
             //mediafire jpg
-            '<a href="lapp4" target="_blank">'+
+            '<a href="https://drive.google.com/drive/folders/1wQZKJmZykRM9wXBWiVGJEAt0RcC9KnWD?usp=share_link" target="_blank">'+
             '<button onclick="modal_008();" class="bt-msj" style="background-color: rgb(0, 38, 255); color: #fff;" >Descargar jpg<i class="fa-solid fa-download blu"></i></button></a>' +
             //mediafire Raw
             '<a href="lapp5" target="_blank">'+

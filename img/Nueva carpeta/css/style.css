@@ -1,0 +1,512 @@
+:root {
+	--rojo: #2214ff;
+	--fondo: #070708;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	cursor: pointer;
+	color: black;
+	 background-image: linear-gradient(rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.781)),
+	 url(../img/FONDO.jpg);
+	background-color: rgb(0, 0, 0);
+    background-position:  center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 40px;
+	text-decoration: none;
+}
+
+header nav a {
+	color: #AAA;
+	
+	margin-right: 20px;
+}
+
+h2,h3, a, A{
+		text-shadow: 4px 4px 4px rgba(51, 51, 51, 0.774);
+		text-decoration: none;
+		
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+
+/* ---- ----- ----- Pelicula Principal ----- ----- ----- */
+.pelicula-principal {
+	font-size: 16px;
+	min-height: 30.62em;
+	color: #fff;
+	
+	background-position: center center;
+	background-size: cover;
+	
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.pelicula-principal .contenedor {
+	margin: 0 auto;
+	margin-bottom: 1%;
+}
+
+.pelicula-principal .titulo {
+	font-weight: 100;
+	font-size: 200%;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-principal .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	
+	margin-bottom: 1.25em;
+}
+
+.pelicula-principal .boton {
+	background: rgba(9, 23, 221, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	MARGIN-TOP: 4PX;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+	
+}
+
+.pelicula-principal .boton:hover {
+	background: rgba(255, 255, 255, 0.582);
+	color: #000;
+}
+
+.pelicula-principal .boton i {
+	margin-right: 1.25em;
+}
+
+/* ---- ----- ----- Pelicula Principal-2 ----- ----- ----- */
+
+.pelicula-principal-2 {
+	font-size: 60%;
+	min-height: 13.62em;
+	color: #fff;
+	
+	background-position: center center;
+	background-size: cover;
+	
+	margin-bottom: 3.12em;
+	
+	align-items: end;
+}
+
+.pelicula-principal-2 .contenedor {
+	margin: 0 auto;
+	margin-bottom: 1px;
+	text-align: center;
+}
+
+.pelicula-principa0l-2 .titulo  {
+	font-weight: 100;
+	font-size: 200%;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-principal-2 .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+
+	margin-bottom: 1.25em;
+}
+
+.pelicula-principal-2 .boton {
+	background: rgba(9, 23, 221, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	MARGIN-TOP: 4PX;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
+.pelicula-principal-2 .boton:hover {
+	background: rgba(255, 255, 255, 0.528);
+	color: #000;
+}
+
+.pelicula-principal-2 .boton i {
+	margin-right: 1.25em;
+}
+
+ /* 3 */
+
+ .pelicula-principal-3 {
+	font-size: 60%;
+	min-height: 12.62em;
+	color: #fff;
+	
+	background-position: center center;
+	background-size: cover;
+	
+	margin-bottom: 3.12em;
+	
+	align-items: end;
+}
+
+.pelicula-principal-3 .contenedor {
+	margin: 0 auto;
+	margin-bottom: 1px;
+	text-align: center;
+}
+
+.pelicula-principa0l-3 .titulo  {
+	font-weight: 100;
+	font-size: 200%;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-principal-3 .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+
+.pelicula-principal-3 .boton {
+	background: rgba(9, 23, 221, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	MARGIN-TOP: 4PX;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
+.pelicula-principal-3 .boton:hover {
+	background: rgba(255, 255, 255, 0.528);
+	color: #000;
+}
+
+.pelicula-principal-3 .boton i {
+	margin-right: 1.25em;
+}
+.programacion {
+	font-size: 24px;
+}
+
+/* ---- ----- ----- Media Queries ----- ----- ----- */
+@media screen and (max-width: 800px) {
+	header .logotipo {
+		margin-bottom: 26px;
+		font-size: 400%;
+		text-decoration: none;
+	}
+
+	header .contenedor {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.pelicula-principal {
+		font-size: 14px;
+	}
+
+	.pelicula-principal .descripcion {
+		max-width: 100%;
+	}
+	.pelicula-principal .boton {
+	background: rgba(221, 9, 9, 0.5);
+	}
+	header .logotipo { 
+		color: rgba(221, 9, 9, 0.5);
+	}
+	.pelicula-principal-3 .boton {
+		background: rgba(221, 9, 9, 0.5);
+	}
+	.pelicula-principal-2 .boton {
+			background: rgba(221, 9, 9, 0.5);
+	}
+}
+/* foter1 */
+footer{
+	margin-top: 0px;
+    height: 0px;
+    width: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(17, 17, 17, 0);
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff
+	
+}
+
+
+
+.footer-content{
+   	top: 900px; 
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.footer-content h3{
+    font-size: 100px;
+    font-weight: 200;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+	
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1px 0;
+	height: 10px;
+}
+.socials-1{
+	list-style: none;
+    display: flex;
+    margin: 1rem 0 3rem 0;
+    flex-wrap: wrap;
+	margin-left: 12px;
+}
+
+.socials-1 li{
+    margin: 0 10px;
+}
+.socials-1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials-1 a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials-1 a:hover i{
+    color: aqua;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.pt{
+    float: left;
+    text-align:center;
+    background-color: black;
+    color: black;
+}
+
+
+.logo-centro {
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+/* foter 2 */
+
+footer{
+	margin-top: 0px;
+    height: 0px;
+    width: 0px;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(17, 17, 17, 0);
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+	
+}
+
+
+
+.footer-content{
+   	top: 900px; 
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.footer-content h3{
+    font-size: 100px;
+    font-weight: 200;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+	
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1px 0;
+}
+.socials-1{
+	list-style: none;
+    display: flex;
+    margin: 1rem 0 3rem 0;
+    flex-wrap: wrap;
+	margin-left: 12px;
+}
+
+.socials-1 li{
+    margin: 0 10px;
+}
+.socials-1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials-1 a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials-1 a:hover i{
+    color: aqua;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.pt{
+    float: left;
+    text-align:center;
+    background-color: black;
+    color: black;
+}
+
+
+.logo-centro {
+    margin-top: 10%;
+    text-align: center;
+
+}
