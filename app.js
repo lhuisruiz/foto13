@@ -27,7 +27,13 @@ function modal_088() {
         '<p class="bm-2-pp">Carpetas... <i class="fa-regular fa-folder"></i></p>' +
         //CARPETA 1 
         '<a href="https://drive.google.com/drive/folders/1Tji_Oc2w49rnABVfw4NZoeFTV9EMVGn-?usp=share_link">' +
-        '<button class="bt-msj" >Ver Fotos <i class="fa-solid fa-image blu"></i></button></a>' +
+        '<button class="bt-msj" >Ver Fotos "Enzo"<i class="fa-solid fa-image blu"></i></button></a>' +
+          //CARPETA 2
+          '<a href="https://drive.google.com/drive/folders/1zbRSJTjhVRDIN-WNqves8Rgu10cTOmMR?usp=share_link">' +
+          '<button class="bt-msj" >Ver Fotos "Juan" <i class="fa-solid fa-image blu"></i></button></a>' +
+         //CARPETA 3
+         '<a href="https://drive.google.com/drive/folders/1zsRgpCaHAkVWSidFwfu_E487Z2TkHYgT?usp=share_link">' +
+         '<button class="bt-msj" > Fotos "Rosa y jose"<i class="fa-solid fa-image blu"></i></button></a>' + 
         //CARPETA 2 video
         '<a href="https://drive.google.com/drive/folders/1ZzBA9BU_U1Zmg1UaERL_Puxrow4xrcRk?usp=share_link" >' + 
         '<button class="bt-msj" >Ver Videos<i class="fa-solid fa-video blu"></i></button></a>'+
@@ -52,12 +58,12 @@ function modal_08() {
     Swal.fire({
         html: '<div class="mensaje-2">' +
             '<h3 class="bm-4">Black Momets</h3>' +
-            '<p class="bm-2-pp">Tamaño de Descarga, <b>5GB De Fotos (JPG Y RAW)</b>, atravez de  mediafire... Archivo rar </p>' +
+            '<p class="bm-2-pp">Tamaño de Descarga. <b>Total 50GB De Fotos (JPG Y RAW)</b>, atravez de  mediafire... Archivo rar </p>' +
             //mediafire jpg
             '<a href="https://drive.google.com/drive/folders/1wQZKJmZykRM9wXBWiVGJEAt0RcC9KnWD?usp=share_link" target="_blank">'+
             '<button onclick="modal_008();" class="bt-msj" style="background-color: rgb(0, 38, 255); color: #fff;" >Descargar jpg<i class="fa-solid fa-download blu"></i></button></a>' +
             //mediafire Raw
-            '<a href="lapp5" target="_blank">'+
+            '<a href="https://drive.google.com/drive/folders/1rPyqW6e52RH3N2uUm2x4XmsVmDhHKEtv?usp=share_link" target="_blank">'+
             '<button class="bt-msj" style="background-color: rgb(225, 0, 255); color: #fff;" > Descargar cr2<i class="fa-solid fa-download blu"></i></button></a>',           
         imageWidth: 400,
         imageHeight: 500,
@@ -74,12 +80,11 @@ function modal_08() {
 }
 //MSJ DE INGRESO Y FOTO LISTA
 Swal.fire({
-   
     html: '<div class="mensaje">' +
-        '<h3 class="bm-4">Black Momets</h3>' +
-        '<p class="bm-2-pp">¡ Recuerda, No Olvides Sonreir !</p>' +
-        '</div>'+
-        '</div>',
+    '<h3 class="bm-4">Black Momets</h3>' +
+    '<p class="bm-2-pp">Disfruta de tus fotos, Saludos.. 😊🔥</p>' +
+    '</div>'+
+    '</div>',
     //cerrar
     padding: '1rem',
     showCloseButton: true,
