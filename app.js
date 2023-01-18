@@ -35,7 +35,7 @@ function modal_088() {
          '<a href="https://drive.google.com/drive/folders/1zsRgpCaHAkVWSidFwfu_E487Z2TkHYgT?usp=share_link">' +
          '<button class="bt-msj" > Fotos "Rosa y jose"<i class="fa-solid fa-image blu"></i></button></a>' + 
         //CARPETA 2 video
-        '<a href="https://drive.google.com/drive/folders/1ZzBA9BU_U1Zmg1UaERL_Puxrow4xrcRk?usp=share_link" >' + 
+        '<a href="https://youtube.com/playlist?list=PLrUNaVBzrB_GphDhTv9dyKcjZM_8ZghV4" >' + 
         '<button class="bt-msj" >Ver Videos<i class="fa-solid fa-video blu"></i></button></a>'+
         //CARPETA 3 otro
         '<a href="https://drive.google.com/drive/folders/1gWy9Czrpu4arJ4vxE_llHnKHLz50b5-O?usp=share_link" >' + 
